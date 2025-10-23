@@ -1,0 +1,62 @@
+{
+  "seed_kit_basic": {
+    "food": 20,
+    "morale": 1
+  },
+  "water_filter": {
+    "water": 50,
+    "health": 2
+  },
+  "bulk_food_rations": {
+    "food": 100,
+    "waste_reduction_percent": 5
+  },
+  "compost_bin_basic": {
+    "compostSpeed": 0.1,
+    "compostRate": 0.1,
+    "ecototal": 1
+  },
+  "recycler_basic": {
+    "recycleSpeed": 0.1,
+    "recycleRate": 0.1,
+    "ecototal": 1
+  },
+  "improved_recycler": {
+    "recycleSpeed": 0.3,
+    "recycleRate": 0.3,
+    "ecototal": 1
+  },
+  "automated_resource_sorter": {
+    "recycleSpeed": 0.75,
+    "recycleRate": 0.75,
+    "ecototal": 1,
+    "learning_component": {
+      "is_enabled": true,
+      "learn_rate": 0.1
+    }
+  },
+  "worm_farm": {
+    "compostSpeed": 0.3,
+    "compostRate": 0.3,
+    "ecototal": 1
+  },
+  "horse_better_harness": {
+    "horsePower": 100,
+    "horseConsumeRate": -1
+  },
+  "medical_kit": {
+    "medicalSupplies": 2
+  },
+  "improved_ammo_sorter": {
+    "ammo": 10,
+    "huntTime": -5
+  },
+  "solar_panel_kit": {
+    "polloution": -0.1,
+    "movment": 20
+  },
+  "wind_turbine_kit": {
+    "polloution": -0.1,
+    "horsePower": 50
+  }
+}

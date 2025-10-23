@@ -1,0 +1,172 @@
+{
+  "storeName": "The Eco-Pioneer's Depot",
+  "currency": "Gold",
+  "categories": [
+    {
+      "category_id": "provisions",
+      "name": "Trail Provisions",
+      "description": "Essential food and water for your journey.",
+      "items": [
+        {
+          "item_id": "seed_kit_basic",
+          "name": "Native Seed Kit",
+          "description": "A pack of native plant seeds for sustainable food. Increases food supply and reduces soil erosion.",
+          "cost": 10,
+          "effects": {
+            "food_increase": 20,
+            "morale_increase": 1
+          }
+        },
+        {
+          "item_id": "water_filter",
+          "name": "Water Filter",
+          "description": "Purifies water found on the trail, reducing sickness and conserving your limited water supply.",
+          "cost": 25,
+          "effects": {
+            "water_increase": 50,
+            "health_increase": 2
+          }
+        },
+        {
+          "item_id": "bulk_food_rations",
+          "name": "Bulk Food Rations",
+          "description": "Large bags of dried goods that reduce packaging waste and provide sustained nutrition.",
+          "cost": 50,
+          "effects": {
+            "food_increase": 100,
+            "waste_reduction_percent": 5
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "recycling_composting",
+      "name": "Recycling & Composting",
+      "description": "Equipment to process waste into valuable resources.",
+      "items": [
+        {
+          "item_id": "compost_bin_basic",
+          "name": "Basic Compost Bin",
+          "description": "A simple bin for collecting and processing organic waste into compost.",
+          "cost": 30,
+          "effects": {
+            "compostSpeed_increase": 0.1,
+            "compostRate_increase": 0.1,
+            "ecototal_increase": 1
+          }
+        },
+        {
+          "item_id": "recycler_basic",
+          "name": "Basic Recycler",
+          "description": "A small, manual device for compacting and processing recycled materials.",
+          "cost": 30,
+          "effects": {
+            "recycleSpeed_increase": 0.1,
+            "recycleRate_increase": 0.1,
+            "ecototal_increase": 1
+          }
+        },
+        {
+          "item_id": "improved_recycler",
+          "name": "Improved Recycler",
+          "description": "An automated system that more efficiently sorts and processes recycled materials.",
+          "cost": 100,
+          "effects": {
+            "recycleSpeed_increase": 0.3,
+            "recycleRate_increase": 0.3,
+            "ecototal_increase": 1
+          }
+        },
+        {
+          "item_id": "automated_resource_sorter",
+          "name": "Automated Resource Sorter",
+          "description": "An advanced appliance that automatically learns and mimics your manual sorting habits, significantly improving recycling efficiency over time.",
+          "cost": 350,
+          "effects": {
+            "recycleSpeed_increase": 0.75,
+            "recycleRate_increase": 0.75,
+            "ecototal_increase": 1
+          },
+          "learning_component": {
+            "is_enabled": true,
+            "learn_rate": 0.1
+          }
+        },
+        {
+          "item_id": "worm_farm",
+          "name": "Worm Farm Kit",
+          "description": "A complete system for vermicomposting, producing high-quality fertilizer quickly.",
+          "cost": 150,
+          "effects": {
+            "compostSpeed_increase": 0.3,
+            "compostRate_increase": 0.3,
+            "ecototal_increase": 1
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "equipment_upgrades",
+      "name": "Trail Equipment",
+      "description": "Items to improve your journey and deal with the challenges of the trail.",
+      "items": [
+        {
+          "item_id": "horse_better_harness",
+          "name": "Better Horse Harness",
+          "description": "An upgraded harness for your horses, improving their stamina and efficiency.",
+          "cost": 75,
+          "effects": {
+            "horsePower_increase": 100,
+            "horseConsumeRate_decrease": 1
+          }
+        },
+        {
+          "item_id": "medical_kit",
+          "name": "Medical Kit",
+          "description": "A complete kit of medical supplies for treating injuries and illnesses on the trail.",
+          "cost": 50,
+          "effects": {
+            "medicalSupplies_increase": 2
+          }
+        },
+        {
+          "item_id": "improved_ammo_sorter",
+          "name": "Ammo Sorter",
+          "description": "Organizes your ammunition more efficiently, allowing for quicker hunts, which is especially important with a time limit.",
+          "cost": 60,
+          "effects": {
+            "ammo_increase": 10,
+            "huntTime_decrease": 5
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "sustainable_vehicle",
+      "name": "Sustainable Upgrades",
+      "description": "Advanced tech to make your wagon more eco-friendly.",
+      "items": [
+        {
+          "item_id": "solar_panel_kit",
+          "name": "Solar Panel Kit",
+          "description": "Generates clean energy to power your accessories and reduce pollution.",
+          "cost": 200,
+          "effects": {
+            "polloution_reduction": 0.1,
+            "movment_increase": 20
+          }
+        },
+        {
+          "item_id": "wind_turbine_kit",
+          "name": "Wagon Wind Turbine",
+          "description": "Captures wind energy to assist your horses and improve efficiency.",
+          "cost": 250,
+          "effects": {
+            "polloution_reduction": 0.1,
+            "horsePower_increase": 50
+          }
+        }
+      ]
+    }
+  ]
+}
